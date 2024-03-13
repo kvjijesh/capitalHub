@@ -13,7 +13,7 @@ export default function App() {
     <>
       <Header />
       <Hero />
-      <div className="mt-10">
+      <div className="md:mt-10 mt-[200px]" >
         <FundRaiser />
       </div>
       <div className="mt-16">
@@ -25,13 +25,13 @@ export default function App() {
       <div className="md:mt-16 mt-[500px]">
         <Volunteer />
       </div>
-      <div className="md:mt-10 mt-[500px]">
+      <div className="md:mt-10">
         <Community />
       </div>
-      <div className="md:mt-10 mt-[500px]">
+      <div className="md:mt-10">
         <Campain />
       </div>
-      <div className="md:mt-10 mt-[500px]">
+      <div className="md:mt-10">
         <Footer />
       </div>
 

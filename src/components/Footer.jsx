@@ -3,12 +3,12 @@ import { FaTwitter } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
 function Footer() {
     return (
-        <div className='w-full bg-[#033C2B] h-[345px]'>
+        <div className='w-full bg-[#033C2B] md:h-[345px] h-auto'>
             <div className="max-w-[90%] mx-auto flex flex-wrap justify-evenly pt-20">
-                <div className="w-[20%]">
+                <div className="md:w-[20%] w-full">
                     <p className="text-[18px] font-normal text-white">Lorem ipsum dolor sit amet <br />consectetur. Magna integer enim <br /> vitae vulputate eu vitae tristique.</p>
                 </div>
-                <div className="w-[20%] ml-10">
+                <div className="md:w-[20%] w-full ml-10">
                     <div>
                         <h3 className="text-[25px] font-medium text-white ">General</h3>
                     </div>
@@ -16,7 +16,7 @@ function Footer() {
                         <h3 className="text-[18px] font-normal text-white mt-5">About Us</h3>
                     </div>
                 </div>
-                <div className="w-[25%]">
+                <div className="md:w-[25%] w-full">
                     <div>
                         <h3 className="text-[25px] font-medium text-white">Policies</h3>
                     </div>
@@ -33,7 +33,7 @@ function Footer() {
                         <h3 className="text-[18px] font-normal text-white mt-3">Accessibility</h3>
                     </div>
                 </div>
-                <div className="w-[25%]">
+                <div className="md:w-[25%] w-full">
                     <div>
                         <h3 className="text-[25px] font-medium text-white">Get in touch</h3>
                     </div>

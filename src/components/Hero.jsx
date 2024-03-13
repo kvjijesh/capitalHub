@@ -24,7 +24,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="md:max-w-[100%] md:h-[20%] md: bg-black py-5  mx-auto">
-                <div className='flex justify-around items-center max-w-[95%] mx-auto'>
+                <div className='flex flex-wrap justify-around items-center max-w-[95%] mx-auto'>
                     <div className='flex items-center'>
                         <h1 className='text-[#CFD19B] text-[48px] font-semibold'>10K +</h1>
                         <p className='text-white text-[15px] font-medium ml-3'>children are back <br /> to school</p>

@@ -11,8 +11,8 @@ const Community = () => {
                 <div className="text-center">
                     <h1 className="text-[40px] font-semibold">Join our community for donating and be a part of a <br /> positive change in the world. With over</h1>
                 </div>
-                <div className="flex mt-10">
-                    <div className='w-[25%]'>
+                <div className="flex flex-wrap mt-10">
+                    <div className='md:w-[25%] w-full'>
                         <div className='flex justify-end pb-10'>
                             <img className="w-[185px] h-[193px] rounded-md grayscale" src={girl} alt="" />
                         </div>
@@ -22,7 +22,7 @@ const Community = () => {
                     </div>
                     <div className='w-[50%] px-10 text-center'>
                         <div>
-                            <h1 className='text-[136px] italic font-normal'>130,987 +</h1>
+                            <h1 className='md:text-[136px] text-[60px] italic font-normal'>130,987 +</h1>
                         </div>
                         <div>
                             <p className='text-[36px] font-normal text-center'>People are joined</p>
