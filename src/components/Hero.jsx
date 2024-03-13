@@ -23,19 +23,19 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="md:max-w-[100%] md:h-[20%] md: bg-black  mx-auto">
+            <div className="md:max-w-[100%] md:h-[20%] md: bg-black py-5  mx-auto">
                 <div className='flex justify-around items-center max-w-[95%] mx-auto'>
-                    <div className=' flex my-8'>
-                        <h1 className='text-[#CFD19B] text-3xl'>10K +</h1>
-                        <p className='text-[#CFD19B] ml-3'>children are back <br /> to school</p>
+                    <div className='flex items-center'>
+                        <h1 className='text-[#CFD19B] text-[48px] font-semibold'>10K +</h1>
+                        <p className='text-white text-[15px] font-medium ml-3'>children are back <br /> to school</p>
                     </div>
-                    <div className=' flex my-8 '>
-                        <h1 className='text-[#CFD19B] text-3xl'>2M+</h1>
-                        <p className='text-[#CFD19B] ml-3'>Total money <br />Donated</p>
+                    <div className=' flex items-center'>
+                        <h1 className='text-[#CFD19B] text-[48px] font-semibold'>2M+</h1>
+                        <p className='text-white text-[15px] font-medium ml-3'>Total money <br />Donated</p>
                     </div>
-                    <div className=' flex my-8'>
-                        <h1 className='text-[#CFD19B] text-3xl'>100 +</h1>
-                        <p className='text-[#CFD19B] ml-3'>Hospitals has <br />been built</p>
+                    <div className=' flex items-center'>
+                        <h1 className='text-[#CFD19B] text-[48px] font-semibold'>100 +</h1>
+                        <p className='text-white text-[15px] font-medium ml-3'>Hospitals has <br />been built</p>
                     </div>
                 </div>
             </div>
