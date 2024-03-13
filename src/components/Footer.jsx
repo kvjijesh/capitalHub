@@ -8,7 +8,7 @@ function Footer() {
                 <div className="md:w-[20%] w-full">
                     <p className="text-[18px] font-normal text-white">Lorem ipsum dolor sit amet <br />consectetur. Magna integer enim <br /> vitae vulputate eu vitae tristique.</p>
                 </div>
-                <div className="md:w-[20%] w-full ml-10">
+                <div className="md:w-[20%] w-full md:ml-10">
                     <div>
                         <h3 className="text-[25px] font-medium text-white ">General</h3>
                     </div>
@@ -47,7 +47,7 @@ function Footer() {
                         <div className="w-[30px] h-[30px] rounded-[100%] bg-white flex justify-center items-center">
                             <FaTwitter className=" " />
                         </div>
-                        <div className="w-[30px] h-[30px] rounded-[100%] bg-white flex justify-center items-center">
+                        <div className="w-[30px] h-[30px] rounded-[100%] bg-white flex justify-center items-center mb-5">
                             <TiSocialInstagram className=" " />
                         </div>
                     </div>

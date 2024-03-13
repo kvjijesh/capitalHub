@@ -8,7 +8,7 @@ export const Hunger = () => {
   return (
     <div className="p-5">
       <div className="mx-auto max-w-[90%] md:flex gap-10 ">
-        <div className="md:flex w-[50%] items-center gap-6 ml-5 flex-wrap ">
+        <div className="md:flex w-[50%] items-center gap-6 md:ml-5 flex-wrap ">
           <div className="w-[290px] max-h-fit border shadow-lg rounded-[10px] flex flex-col" >
             <div className="flex justify-center items-end  gap-6 h-[40%] w-full pb-10 pt-3  ">
               <div className="w-[90px] h-[90px] rounded-[100%] bg-white overflow-hidden">
@@ -33,7 +33,7 @@ export const Hunger = () => {
               <p className="font-semibold text-center p-5">828 Million people in the world are still hungry</p>
             </div>
           </div>
-          <div className="w-[250px] max-h-[350px] border shadow-lg rounded-[10px] flex flex-col ml-5" >
+          <div className="w-[250px] max-h-[350px] border shadow-lg rounded-[10px] flex flex-col ml-5 mt-5" >
             <div className="flex justify-center items-end  gap-6 h-[40%] w-full  pt-3  ">
               <div className="w-[90px] h-[90px] rounded-[100%] bg-white overflow-hidden">
                 <img className="w-full h-full object-cover" src={boy} alt="" />
@@ -57,7 +57,6 @@ export const Hunger = () => {
               <p className="font-semibold text-center p-5">828 Million people in the world are still hungry</p>
             </div>
           </div>
-
         </div>
 
         <div className='flex  flex-col pt-3'>

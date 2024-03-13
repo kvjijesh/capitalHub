@@ -20,7 +20,7 @@ const Community = () => {
                             <img className="w-[185px] h-[193px] rounded-md grayscale" src={girls2} alt="" />
                         </div>
                     </div>
-                    <div className='w-[50%] px-10 text-center'>
+                    <div className='md:w-[50%] w-full px-10 text-center'>
                         <div>
                             <h1 className='md:text-[136px] text-[60px] italic font-normal'>130,987 +</h1>
                         </div>
@@ -31,7 +31,7 @@ const Community = () => {
                             <BlackButtton text={'Yes I want to join Community'} />
                         </div>
                     </div>
-                    <div className='w-[25%]'>
+                    <div className='md:w-[25%] w-full'>
                         <div className='flex justify-end '>
                             <img className='w-[118px] h-[123px] rounded-md grayscale' src={boyLeft1} alt="boy" />
                         </div>

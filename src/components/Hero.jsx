@@ -27,11 +27,11 @@ const Hero = () => {
                 <div className='flex flex-wrap justify-around items-center max-w-[95%] mx-auto'>
                     <div className='flex items-center'>
                         <h1 className='text-[#CFD19B] text-[48px] font-semibold'>10K +</h1>
-                        <p className='text-white text-[15px] font-medium ml-3'>children are back <br /> to school</p>
+                        <p className='text-white text-[15px] font-medium ml-3'> Children are back <br /> to school</p>
                     </div>
                     <div className=' flex items-center'>
-                        <h1 className='text-[#CFD19B] text-[48px] font-semibold'>2M+</h1>
-                        <p className='text-white text-[15px] font-medium ml-3'>Total money <br />Donated</p>
+                        <h1 className='text-[#CFD19B] text-[48px] font-semibold'>2M +</h1>
+                        <p className='text-white text-[15px] font-medium ml-3'> Total money <br />Donated</p>
                     </div>
                     <div className=' flex items-center'>
                         <h1 className='text-[#CFD19B] text-[48px] font-semibold'>100 +</h1>
