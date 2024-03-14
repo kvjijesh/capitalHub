@@ -3,7 +3,7 @@ import BlackButtton from './BlackButtton'
 const Hero = () => {
     return (
         <div className="bg-gradient-to-b from-[#EFF8D8] to-[#FFFFFE] h-[80vh]">
-            <div className=" md:flex max-w-[95%] mx-auto h-[80%]">
+            <div className=" md:flex max-w-[90%] mx-auto h-[80%]">
                 <div className="flex md:w-[65%] w-full  md:pl-10">
                     <div className="w-full h-full ">
                         <div className="w-full  mt-10">

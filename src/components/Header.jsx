@@ -5,7 +5,7 @@ import { IoMenu } from "react-icons/io5"
 const Header = () => {
     return (
         <>
-            <div className="md:h-[93px] h-[45px] border-b">
+            <div className="md:h-[93px] h-[65px] border-b">
                 <div className='hidden md:flex justify-between max-w-[90%] mx-auto'>
                     <div className="md:w-[10%] invisible"></div>
                     <div className="flex justify-center">
@@ -15,15 +15,24 @@ const Header = () => {
                             <li>Contact Us</li>
                         </ul>
                     </div>
-                    <div className="md:flex mt-8 gap-1 hidden">
+                    <div className="flex mt-8 gap-1">
                         <Button text={'Donate'} />
                         <BlackButtton text={'Sign In'} />
 
                     </div>
                 </div>
-                <div className="md:hidden flex justify-start align-middle content-center p-4">
-                    <IoMenu />
+                <div className="md:hidden flex justify-evenly">
+                    <div className="pt-6">
+                        <IoMenu />
+                    </div>
+                    <div className="flex gap-1 pt-3">
+                        <Button text={'Donate'} />
+                        <BlackButtton text={'Sign In'} />
+
+                    </div>
+
                 </div>
+
             </div>
         </>
     )
